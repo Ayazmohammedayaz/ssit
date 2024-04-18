@@ -8,7 +8,7 @@ import AboutUs from "@/components/layout/menu/AboutUs";
 export default function Home() {
   return (
     <>
-        <Header/>
+      
         <Hero/>
         <HomeMenu/>
         <section className="text-center my-16">
@@ -27,7 +27,6 @@ export default function Home() {
           <div className="mt-6">
           <a className="text-4xl underline text-gray-500" href="tel:0000000000">0000000000</a>
           </div>
-          {/* need to add footer */}
         </section>
     </>
   );
